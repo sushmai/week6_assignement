@@ -23,7 +23,8 @@ The six possible exploits are:
 1. [X] SQL Injection (SQLi) :
     
         BLUE 
-  "id=%27%20OR%20SLEEP(5)=0--%27"
+        
+Exploit is in slaesperson.php URl 
 
 1. [X] Cross-Site Scripting (XSS) : 
       
@@ -39,6 +40,24 @@ The six possible exploits are:
       
         BLUE
 
+## Blue
 
+Vulnerability #1: SQL Injection (SQLi)
+
+Vulnerability #2: Session Hijacking/Fixation
+
+
+## Green
+
+Vulnerability #1: Username Enumeration
+
+Vulnerability #2: Cross-Site Scripting (XSS)
+
+
+## Red
+
+Vulnerability #1:Insecure Direct Object Reference (IDOR)
+
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 ## License
     Copyright [2019] [sushma]
